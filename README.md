@@ -2,17 +2,12 @@ Spotify Playlists App
 Project Overview
 This is a full-stack web application that allows users to securely log in with their Spotify account and view a list of their private and collaborative playlists. It demonstrates a complete authentication flow using OAuth 2.0 (via Spotify's API), JWT-based authorization, and a clear separation between frontend and backend concerns.
 
-Live Demo (Coming Soon / Disclaimer)
-A live demo of this application will be available here once deployed.
-
-Important Note for Recruiters/Reviewers:
+Important Note:
 This application is currently awaiting approval from Spotify for "Production Mode." In Spotify's Development Mode, only users explicitly added to the application's "Users and Access" team can log in. If you wish to test the live deployed version, please contact me, and I can potentially add your Spotify account to the authorized users.
 
 For an immediate and comprehensive demonstration of the application's functionality, please watch the video demo below.
 
-Video Demo
-
-(Replace YOUR_VIDEO_ID with the actual ID of your YouTube video. Click the image to watch!)
+Video Demo: (https://youtu.be/OcMFQI9mjk4)
 
 Features
 Spotify OAuth 2.0 Integration: Secure user authentication via Spotify's authorization flow.
