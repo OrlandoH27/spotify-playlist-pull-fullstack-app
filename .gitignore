@@ -1,0 +1,21 @@
+# Global ignores for Node.js projects
+node_modules/
+npm-debug.log*
+
+# Environment variables (contains sensitive API keys!)
+.env
+
+# Frontend specific ignores
+/spotify-frontend/node_modules/
+/spotify-frontend/build/
+/spotify-frontend/dist/
+/spotify-frontend/.env*.local # For local frontend env files
+
+# Backend specific ignores
+/spotify-backend/node_modules/
+/spotify-backend/npm-debug.log*
+/spotify-backend/.env # Although a global .env is ignored, being explicit doesn't hurt
+
+# OS files
+.DS_Store # macOS
+Thumbs.db # Windows
